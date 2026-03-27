@@ -21,10 +21,10 @@
 
 ## 1) Conda 环境（Python 3.11）
 
-你已创建好环境 `word2vec`，可跳过创建步骤。
+
 
 ```bash
-conda env create -f environment.yml
+conda create -n word2vec python=3.11
 conda activate word2vec
 ```
 
