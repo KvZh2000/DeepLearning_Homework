@@ -1,0 +1,12 @@
+name: word2vec
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - gensim==4.3.2
+      - numpy==1.26.4
+      - scipy==1.12.0
+      - matplotlib==3.8.4
+      - scikit-learn==1.4.2
